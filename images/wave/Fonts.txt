@@ -1,0 +1,3 @@
+Fonts used:
+- Josefin Sans, by Typemade (http://www.fontsquirrel.com/fonts/Josefin-Sans?q[term]=Josefin+Sans&q[search_check]=Y)
+- Rochester, by 	Sideshow (http://www.fontsquirrel.com/fonts/rochester)
