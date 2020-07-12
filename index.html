@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/fontawesome.min.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/countdown.css">
 
   <!-- JS -->
   <script src="js/scrollReveal.js"></script>
@@ -219,6 +220,28 @@
               <p style="text-align: center; font-size: 25px; padding-top: 0px; ">Today, you can get <span style=" font-weight: 800; "> INSTANT ACCESS </span> for just...</p>
               <h1 class="for-mobile"  style="text-align: center; margin-top: -12px; font-size: 80px; font-weight: 600; color: red;"><s>N5,000</s></h1>
               <h1 class="for-mobile"  style="text-align: center; margin-top: -12px; font-size: 80px; font-weight: 600; color: #609c88;"><s><s>N</s></s>1,000</h1>
+              <h1 style="color: red; font-weight: bolder; font-size: 40px; margin: 40px 0px 20px;">Promo Ends:</h1> 
+<div id="clockdiv"> 
+  <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div> 
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+  
+ 
+              <p style="font-size:40px; text-align: center;" id="demo"></p>
               <p class="text-center"><a href="https://paystack.com/pay/videomarketingmastery" target="blank"><img src="images/buy-button-2.png" align="Buy Now"></a></p>
             </div>
             <p class="text-center" style="margin-top: 10px; font-size: 20px; font-weight: bolder;">And it just keeps getting better…</p>
@@ -411,5 +434,6 @@
      window.scrollReveal = new scrollReveal();
     });
   </script>
+  <script type="text/javascript" src="js/countDown.js"></script>
 </body>
 </html>
